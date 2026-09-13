@@ -1,5 +1,7 @@
 
 import { Suspense, useState } from 'react';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import Technologies from './components/Cards/Technologies';
 import Hero from './components/Hero'
 import Nav from './components/Nav'
@@ -21,6 +23,7 @@ function App() {
       <Suspense fallback={<h2>Loading...</h2>}>
         <Technologies technologyPromise={technologyPromise} />
       </Suspense>
+      <ToastContainer position="top-right" autoClose={2500} />
     </>
   )
 }

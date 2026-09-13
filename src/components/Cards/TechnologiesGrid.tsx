@@ -1,19 +1,25 @@
 import React from 'react';
 import TechnologyCard from './TechnologyCard';
 import type { Itechnology } from '../../types/Itechnology';
-import Stack from '../Stack/Stack';
 
 interface TechnologiesGridProps {
     technologies: Itechnology[];
+    selectedStack: Itechnology[];
+    onAddToStack: (technology: Itechnology) => void;
 }
 
-const TechnologiesGrid = ({ technologies }: TechnologiesGridProps) => {
+const TechnologiesGrid = ({ technologies, selectedStack, onAddToStack }: TechnologiesGridProps) => {
     return (
 
         <div className='w-full'>
             <div className='grid grid-cols-3 gap-5 container mx-auto'>
                 {technologies.map(technology => (
-                    <TechnologyCard key={technology.id} technology={technology} />
+                    <TechnologyCard
+                        key={technology.id}
+                        technology={technology}
+                        isSelected={selectedStack.some(item => item.id === technology.id)}
+                        onAddToStack={onAddToStack}
+                    />
                 ))}
             </div>
         </div>
