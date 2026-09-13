@@ -1,3 +1,7 @@
+
+import Logo from './assets/logo-text.png'
+
+
 const Footer = () => {
     return (
         <footer className="bg-white border-t-2 border-gray-200 pt-14 px-20 mt-20">
@@ -5,12 +9,7 @@ const Footer = () => {
                 <div className="flex justify-between gap-10 flex-wrap">
                     <div className="flex flex-col gap-4 max-w-sm">
                         <div className="flex items-center gap-2">
-                            <div className="w-8 h-8 rounded-lg bg-gradient-to-r from-pink-500 to-red-500 flex items-center justify-center text-white font-bold text-sm">
-                                DS
-                            </div>
-                            <p className="text-lg font-bold">
-                                Dev <span className="text-pink-500">Stack</span>
-                            </p>
+                            <img src={Logo} alt="" />
                         </div>
                         <p className="text-gray-500 text-sm">
                             Curated tools, technologies, and resources for developers building modern software.

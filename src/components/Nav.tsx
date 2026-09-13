@@ -6,7 +6,7 @@ const Nav =
     () => {
 
         return (
-            <nav className="bg-white flex items-center justify-center container mx-auto py-5 border-b-2 border-gray-200 mx-auto py-5 px-5 sticky top-0">
+            <nav className="bg-white flex items-center justify-center container mx-auto py-5 border-b-2 border-gray-200 mx-auto py-5 px-20 sticky top-0">
                 <div className="flex items-center justify-between w-full">
                     <div>
                         <img className="w-40" src={logo} alt="" />
