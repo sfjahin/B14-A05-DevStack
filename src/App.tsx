@@ -1,4 +1,7 @@
 
+import Footer from './Footer'
+
+
 import { Suspense, useState } from 'react';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -23,6 +26,7 @@ function App() {
       <Suspense fallback={<h2>Loading...</h2>}>
         <Technologies technologyPromise={technologyPromise} />
       </Suspense>
+      <Footer />
       <ToastContainer position="top-right" autoClose={2500} />
     </>
   )
