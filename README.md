@@ -1,3 +1,20 @@
+Name of the project: 
+Description: 
+Technology used:
+3 Features:
+
+
+What is JSX, and why is it used in React?
+What is the difference between props and state?
+What does the useState hook do, and where did you use it in this project?
+What does the useEffect hook do, and why did you need it to load the JSON data?
+Why does every item in a .map() list need a unique key prop?
+What is conditional rendering? Show one place you used it (example: the empty stack message).
+How do you pass data from a parent component to a child component, and how does a child send something back to the parent?
+
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
