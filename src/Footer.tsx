@@ -1,0 +1,54 @@
+const Footer = () => {
+    return (
+        <footer className="bg-white border-t-2 border-gray-200 pt-14">
+            <div className="container mx-auto px-5">
+                <div className="flex justify-between gap-10 flex-wrap">
+                    <div className="flex flex-col gap-4 max-w-sm">
+                        <div className="flex items-center gap-2">
+                            <div className="w-8 h-8 rounded-lg bg-gradient-to-r from-pink-500 to-red-500 flex items-center justify-center text-white font-bold text-sm">
+                                DS
+                            </div>
+                            <p className="text-lg font-bold">
+                                Dev <span className="text-pink-500">Stack</span>
+                            </p>
+                        </div>
+                        <p className="text-gray-500 text-sm">
+                            Curated tools, technologies, and resources for developers building modern software.
+                        </p>
+                        <div className="flex gap-5 text-sm font-medium">
+                            <a className="hover:text-pink-500" href="">GitHub</a>
+                            <a className="hover:text-pink-500" href="">Twitter</a>
+                            <a className="hover:text-pink-500" href="">LinkedIn</a>
+                        </div>
+                    </div>
+                    <div className="flex flex-col gap-3">
+                        <h3 className="text-sm font-bold tracking-wide">PRODUCT</h3>
+                        <a className="text-gray-500 text-sm hover:text-pink-500" href="">Home</a>
+                        <a className="text-gray-500 text-sm hover:text-pink-500" href="">Technologies</a>
+                        <a className="text-gray-500 text-sm hover:text-pink-500" href="">Projects</a>
+                    </div>
+                    <div className="flex flex-col gap-3">
+                        <h3 className="text-sm font-bold tracking-wide">COMPANY</h3>
+                        <a className="text-gray-500 text-sm hover:text-pink-500" href="">About</a>
+                        <a className="text-gray-500 text-sm hover:text-pink-500" href="">Contact</a>
+                        <a className="text-gray-500 text-sm hover:text-pink-500" href="">Careers</a>
+                    </div>
+                    <div className="flex flex-col gap-3">
+                        <h3 className="text-sm font-bold tracking-wide">LEGAL</h3>
+                        <a className="text-gray-500 text-sm hover:text-pink-500" href="">Privacy Policy</a>
+                        <a className="text-gray-500 text-sm hover:text-pink-500" href="">Terms of Service</a>
+                    </div>
+                </div>
+                <div className="flex justify-between items-center gap-5 flex-wrap border-t-2 border-gray-200 mt-10 py-6 text-sm text-gray-500">
+                    <p>&copy; 2026 Dev Stack. All rights reserved.</p>
+                    <div className="flex gap-5">
+                        <a className="hover:text-pink-500" href="">Privacy</a>
+                        <a className="hover:text-pink-500" href="">Terms</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    );
+};
+
+export default Footer;
