@@ -1,4 +1,7 @@
 Name of the project: Tech Stacker
+
+
+
 Description: Tech Stacker is a platform where you stake up your project technologies for convenience.
 Technology used: React, Typescript, Tailwind Css, DaisyUI, JavaScript, React-Toastify (NPM Package), JSON (for technology data), Vite (build tool)
 
