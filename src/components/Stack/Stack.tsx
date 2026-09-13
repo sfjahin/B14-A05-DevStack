@@ -1,4 +1,3 @@
-import React from 'react';
 import type { Itechnology } from '../../types/Itechnology';
 import SelectedStacks from './SelectedStacks';
 

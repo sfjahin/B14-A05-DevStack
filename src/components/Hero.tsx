@@ -1,3 +1,5 @@
+import banner from '../assets/banner-stack.png'
+
 const Hero = () => {
     return (
         <div className="flex justify-center items-center p-20">
@@ -10,7 +12,7 @@ const Hero = () => {
                         <button className="w-50 border-2 border-slate-300 px-4 py-2.5 rounded-md text-slate-500 font-medium">Learn More</button>
                     </div>
                 </div>
-                <img src="../assets/banner-stack.png" alt="" />
+                <img src={banner} alt="" />
             </div>
         </div>
     )
