@@ -39,11 +39,11 @@ const Technologies = ({ technologyPromise }: TechnologiesProps) => {
         toast.info('All technologies removed from your stack.');
     };
 
-    return <div className="flex container mx-auto gap-10 px-20">
-        <div className="w-[70%]">
+    return <div className="flex flex-col lg:flex-row container mx-auto gap-10 px-5 sm:px-10 lg:px-20">
+        <div className="w-full lg:w-[70%]">
             <TechnologiesGrid technologies={technologies} selectedStack={selectedStack} onAddToStack={handleAddToStack} />
         </div>
-        <div className="w-[30%]">
+        <div className="w-full lg:w-[30%]">
             <Stack selectedStack={selectedStack} onRemoveFromStack={handleRemoveFromStack} onRemoveAll={handleRemoveAll} />
         </div>
     </div>

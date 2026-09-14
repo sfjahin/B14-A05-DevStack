@@ -27,7 +27,7 @@ const Stack = ({ selectedStack, onRemoveFromStack, onRemoveAll }: IStackProps) =
                     </button>
                 </div>
             ) : (
-                <div className='border-dashed border-2 border-gray-200 px-15 py-10 rounded-2xl flex justify-center items-center'>
+                <div className='border-dashed border-2 border-gray-200 px-6 sm:px-15 py-10 rounded-2xl flex justify-center items-center'>
                     <p>Your stack is empty.</p>
                 </div>
             )}

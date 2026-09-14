@@ -11,7 +11,7 @@ const TechnologiesGrid = ({ technologies, selectedStack, onAddToStack }: Technol
     return (
 
         <div className='w-full'>
-            <div className='grid grid-cols-3 gap-5 container mx-auto'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 container mx-auto'>
                 {technologies.map(technology => (
                     <TechnologyCard
                         key={technology.id}
