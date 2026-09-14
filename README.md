@@ -76,7 +76,7 @@ function Parent() {
         console.log(data);
     };
 
-    return <Child sendData={handleData} />;
+return <Child sendData={handleData} />;
 }
 Child
 function Child({ sendData }) {
